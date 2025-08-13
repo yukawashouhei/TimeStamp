@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
+options: "b26c3abe6cbd15868af745ca5c2b93e009b629887c15a68d2a1e5fd994248b26"
+build_start_time: [1755057233, 728117000]
+build_end_time: [1755057236, 409799000]
+inputs:
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/ContentView.swift": !dirty [1755057088, 622232299]
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimeStampApp.swift": !dirty [1755054217, 306216701]
+  ? "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1755057233, 503698538]
