@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  TimeStamp
 //
-//  Created by 湯川昇平 on 2025/08/13.
+//  Created by on 2025/08/13.
 //
 
 import SwiftUI
