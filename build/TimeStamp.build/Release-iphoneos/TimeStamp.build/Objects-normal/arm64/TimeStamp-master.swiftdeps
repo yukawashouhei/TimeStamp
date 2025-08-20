@@ -1,9 +1,16 @@
 version: "Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)"
 options: "b26c3abe6cbd15868af745ca5c2b93e009b629887c15a68d2a1e5fd994248b26"
-build_start_time: [1755057233, 728117000]
-build_end_time: [1755057236, 409799000]
+build_start_time: [1755710173, 678645000]
+build_end_time: [1755710174, 137643000]
 inputs:
-  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/ContentView.swift": !dirty [1755057088, 622232299]
-  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimeStampApp.swift": !dirty [1755054217, 306216701]
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/ContentView.swift": !dirty [1755710091, 142783271]
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/Persistence.swift": !dirty [1755663520, 235756908]
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimeStampApp.swift": !dirty [1755688932, 736041958]
+  ? "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/CoreDataGenerated/TimeStamp/TimeStamp+CoreDataModel.swift"
+  : !dirty [1755710155, 89362769]
+  ? "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/CoreDataGenerated/TimeStamp/TimestampItem+CoreDataClass.swift"
+  : !dirty [1755710155, 90539610]
+  ? "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/CoreDataGenerated/TimeStamp/TimestampItem+CoreDataProperties.swift"
+  : !dirty [1755710155, 91096323]
   ? "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/GeneratedAssetSymbols.swift"
-  : !dirty [1755057233, 503698538]
+  : !dirty [1755710154, 696339801]
