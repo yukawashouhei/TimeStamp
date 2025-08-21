@@ -69,7 +69,7 @@ struct ContentView: View {
                 List {
                     ForEach(items) { item in
                         // リストの改行のビュー
-                        TimestampRow(item: item)
+                        TimeStampRow(item: item)
                     }
                     .onDelete(perform: deleteItems) // スワイプで削除する機能を追加
                 }
@@ -110,60 +110,58 @@ struct ContentView: View {
                 // 本番アプリではユーザーにエラーを追加するなどの処理が望ましい
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
-            
-        }
-        /// リストからアイテムを削除する
-        private func deleteItems(offsets: IndexSet) {
-            withAnimation {
-                offsets.map { items[$0] }.forEach(viewContext.delete)
-                
-                do {
-                    try viewContext.save()
-                } catch {
-                    let nsError = error as NSError
-                    fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-                }
-            }
-        }
-        
-        // MARK: - Subviews
-        
-        ///リストの各行を表現するビュー
-        struct TimeStampRow: View {
-            let item: TimestampItem
-            
-            private static let dateFormatter: DateFormatter = {
-                let formatter = DateFormatter()
-                formatter.dateStyle = .medium
-                formatter.timeStyle = .medium
-                return formatter
-            }()
-            
-            var body: some View {
-                HStack {
-                    Image(systemName: "calendar.badge.clock")
-                        .foregroundColor(.pink)
-                    VStack(alignment: .leading) {
-                        if let date = item.date {
-                            Text(Self.dateFormatter.string(from: date))
-                                .fontWeight(.semibold)
-                        }
-                        if let createdAt = item.createdAt {
-                            Text("Saved: \(createdAt.formatted(date: .relative, time: .omitted))")
-                                .font(.caption)
-                                .foregroundColor(.secondary)
-                        }
-                    }
-                }
-            }
-        }
-        
-        // MARK: - Preview
-        
-        #Preview {
-            ContentView()
-            // プレビューでもCore Dataが動作するように、プレビュー用のコンテキストを注入
-                .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         }
     }
+    /// リストからアイテムを削除する
+    private func deleteItems(offsets: IndexSet) {
+        withAnimation {
+            offsets.map { items[$0] }.forEach(viewContext.delete)
+            
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
+        }
+    }
+}
+
+// MARK: - Subviews
+
+///リストの各行を表現するビュー
+struct TimeStampRow: View {
+    let item: TimestampItem
+    
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .medium
+        return formatter
+    }()
+    
+    var body: some View {
+        HStack {
+            Image(systemName: "calendar.badge.clock")
+                .foregroundColor(.pink)
+            VStack(alignment: .leading) {
+                if let date = item.date {
+                    Text(Self.dateFormatter.string(from: date))
+                        .fontWeight(.semibold)
+                }
+                if let createdAt = item.createdAt {
+                    Text("Saved: \(createdAt.formatted(date: .abbreviated, time: .omitted))")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
+    }
+    
+    // MARK: - Preview
+}
+#Preview {
+    ContentView()
+    // プレビューでもCore Dataが動作するように、プレビュー用のコンテキストを注入
+        .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }
