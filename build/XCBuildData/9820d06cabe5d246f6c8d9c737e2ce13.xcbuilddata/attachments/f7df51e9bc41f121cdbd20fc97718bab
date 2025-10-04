@@ -1,0 +1,4 @@
+module RealmCoreResources {
+umbrella "/Users/yukawashouhei/Library/Developer/Xcode/DerivedData/TimeStamp-cjfqzbqjllsypafqtfhqiwezwykf/SourcePackages/checkouts/realm-core/src/spm"
+export *
+}
