@@ -1,0 +1,34 @@
+Target dependency graph (12 targets)
+Target 'TimeStamp' in project 'TimeStamp'
+➜ Explicit dependency on target 'RealmSwift' in project 'Realm'
+Target 'RealmSwift' in project 'Realm'
+➜ Explicit dependency on target 'RealmSwift' in project 'Realm'
+➜ Explicit dependency on target 'Realm_RealmSwift' in project 'Realm'
+➜ Explicit dependency on target 'Realm' in project 'Realm'
+➜ Explicit dependency on target 'RealmCore' in project 'RealmDatabase'
+Target 'RealmSwift' in project 'Realm'
+➜ Explicit dependency on target 'Realm_RealmSwift' in project 'Realm'
+➜ Explicit dependency on target 'Realm' in project 'Realm'
+➜ Explicit dependency on target 'RealmCore' in project 'RealmDatabase'
+Target 'Realm' in project 'Realm'
+➜ Explicit dependency on target 'Realm_Realm' in project 'Realm'
+➜ Explicit dependency on target 'RealmCore' in project 'RealmDatabase'
+Target 'RealmCore' in project 'RealmDatabase'
+➜ Explicit dependency on target 'RealmCoreResources' in project 'RealmDatabase'
+➜ Explicit dependency on target 'RealmDatabase_RealmCoreResources' in project 'RealmDatabase'
+➜ Explicit dependency on target 'Bid' in project 'RealmDatabase'
+➜ Explicit dependency on target 's2geometry' in project 'RealmDatabase'
+➜ Explicit dependency on target 'RealmCore' in project 'RealmDatabase'
+Target 'RealmCoreResources' in project 'RealmDatabase'
+➜ Explicit dependency on target 'RealmDatabase_RealmCoreResources' in project 'RealmDatabase'
+➜ Explicit dependency on target 'Bid' in project 'RealmDatabase'
+➜ Explicit dependency on target 's2geometry' in project 'RealmDatabase'
+➜ Explicit dependency on target 'RealmCore' in project 'RealmDatabase'
+Target 'RealmCore' in project 'RealmDatabase'
+➜ Explicit dependency on target 'Bid' in project 'RealmDatabase'
+➜ Explicit dependency on target 's2geometry' in project 'RealmDatabase'
+Target 's2geometry' in project 'RealmDatabase' (no dependencies)
+Target 'Bid' in project 'RealmDatabase' (no dependencies)
+Target 'RealmDatabase_RealmCoreResources' in project 'RealmDatabase' (no dependencies)
+Target 'Realm_Realm' in project 'Realm' (no dependencies)
+Target 'Realm_RealmSwift' in project 'Realm' (no dependencies)

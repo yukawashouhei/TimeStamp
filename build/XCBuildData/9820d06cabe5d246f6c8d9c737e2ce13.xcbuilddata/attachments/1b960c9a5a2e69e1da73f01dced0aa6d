@@ -1,0 +1,4 @@
+module s2geometry {
+umbrella "/Users/yukawashouhei/Library/Developer/Xcode/DerivedData/TimeStamp-cjfqzbqjllsypafqtfhqiwezwykf/SourcePackages/checkouts/realm-core/src/external/s2"
+export *
+}

@@ -1,0 +1,41 @@
+{
+  "" : {
+    "const-values" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary.swiftconstvalues",
+    "dependencies" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary.d",
+    "diagnostics" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary.dia",
+    "emit-module-dependencies" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary-emit-module.dia",
+    "pch" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStamp-primary.swiftdeps"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/ContentView.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimeStampApp.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampApp.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampApp.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampApp.o"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimeStampObject.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampObject.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampObject.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimeStampObject.o"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/Timestamp.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/Timestamp.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/Timestamp.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/Timestamp.o"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/TimeStamp/TimestampRow.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimestampRow.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimestampRow.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/TimestampRow.o"
+  },
+  "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/yukawashouhei/Desktop/design/Swift/TimeStamp/build/TimeStamp.build/Release-iphoneos/TimeStamp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}
