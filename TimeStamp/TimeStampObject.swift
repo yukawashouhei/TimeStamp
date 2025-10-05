@@ -13,4 +13,15 @@ class TimestampObject: Object, Identifiable {
     @Persisted(primaryKey: true) var id: ObjectId
     @Persisted var date: Date = Date()
     @Persisted var createdAt: Date = Date()
+    
+    // MARK: - Domain Object Conversion
+    
+    
+    // RealmObjectからDomainObjectへの変換
+    func toDomainObject() -> Timestamp {
+        return Timestamp(id: self.id.stringValue,
+                         date: self.date,
+                         createdAt: self.createdAt
+        )
+    }
 }
